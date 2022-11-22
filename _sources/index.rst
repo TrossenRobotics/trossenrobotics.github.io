@@ -10,22 +10,22 @@ Interbotix
     <div class="docs-table" id="interbotix-table">
         <table>
             <tr>
-                <th>
+                <td>
                     <a  href="https://docs.trossenrobotics.com/interbotix_xsarms_docs/"
                         class="docs_link">
                         <img src="_static/_images/interbotix_xsarms.png">
                     </a>
-                </th>
-                <th>
+                </td>
+                <td>
                     <a href="https://docs.trossenrobotics.com/interbotix_xslocobots_docs"
                         class="docs_link">
                         <img src="_static/_images/interbotix_xslocobots.png">
                     </a>
-                </th>
+                </td>
             </tr>
             <tr>
-                <th><p>Interbotix X-Series Arms</p></th>
-                <th><p>Interbotix X-Series LoCoBots</p></th>
+                <td><p>Interbotix X-Series Arms</p></td>
+                <td><p>Interbotix X-Series LoCoBots</p></td>
             </tr>
         </table>
     </div>
@@ -38,29 +38,29 @@ AgileX
     <div class="docs-table" id="agilex-table">
         <table>
             <tr>
-                <th>
-                    <a  href="https://docs.trossenrobotics.com//agilex_bunker_docs"
+                <td>
+                    <a  href="https://docs.trossenrobotics.com/agilex_bunker_docs"
                         class="docs_link">
                         <img src="_static/_images/agilex_bunker.png">
                     </a>
-                </th>
-                <th>
+                </td>
+                <td>
                     <a href="https://docs.trossenrobotics.com/agilex_bunker_pro_docs"
                         class="docs_link">
                         <img src="_static/_images/agilex_bunker_pro.png">
                     </a>
-                </th>
-                <th>
+                </td>
+                <td>
                     <a href="https://docs.trossenrobotics.com/agilex_bunker_mini_docs"
                         class="docs_link">
                         <img src="_static/_images/agilex_bunker_mini.png">
                     </a>
-                </th>
+                </td>
             </tr>
             <tr>
-                <th><p>AgileX Robotics BUNKER</p></th>
-                <th><p>AgileX Robotics BUNKER PRO</p></th>
-                <th><p>AgileX Robotics BUNKER MINI</p></th>
+                <td><p>AgileX Robotics BUNKER</p></td>
+                <td><p>AgileX Robotics BUNKER PRO</p></td>
+                <td><p>AgileX Robotics BUNKER MINI</p></td>
             </tr>
         </table>
     </div>
@@ -73,15 +73,15 @@ Dobot
     <div class="docs-table" id="dobot-table">
         <table>
             <tr>
-                <th>
+                <td>
                     <a  href="https://docs.trossenrobotics.com/dobot_cr_cobots_docs"
                         class="docs_link">
                         <img src="_static/_images/dobot_cr_cobots.png">
                     </a>
-                </th>
+                </td>
             </tr>
             <tr>
-                <th><p>Dobot CR-Series Cobots</p></th>
+                <td><p>Dobot CR-Series Cobots</p></td>
             </tr>
         </table>
     </div>
@@ -94,15 +94,15 @@ Unitree
     <div class="docs-table" id="unitree-table">
         <table>
             <tr>
-                <th>
+                <td>
                     <a  href="https://docs.trossenrobotics.com/unitree_go1_docs"
                         class="docs_link">
                         <img src="_static/_images/unitree_go1.png">
                     </a>
-                </th>
+                </td>
             </tr>
             <tr>
-                <th><p>Unitree Robotics Go1</p></th>
+                <td><p>Unitree Robotics Go1</p></td>
             </tr>
         </table>
     </div>
