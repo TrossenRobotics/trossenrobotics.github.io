@@ -11,13 +11,13 @@ Interbotix
         <table>
             <tr>
                 <th>
-                    <a  href="./interbotix_xsarms_docs/index.html"
+                    <a  href="docs.trossenrobotics.com/interbotix_xsarms_docs/"
                         class="docs_link">
                         <img src="_static/_images/interbotix_xsarms.png">
                     </a>
                 </th>
                 <th>
-                    <a href="./interbotix_xslocobots_docs/index.html"
+                    <a href="docs.trossenrobotics.com/interbotix_xslocobots_docs"
                         class="docs_link">
                         <img src="_static/_images/interbotix_xslocobots.png">
                     </a>
@@ -39,19 +39,19 @@ AgileX
         <table>
             <tr>
                 <th>
-                    <a  href="./agilex_bunker_docs/index.html"
+                    <a  href="docs.trossenrobotics.com//agilex_bunker_docs"
                         class="docs_link">
                         <img src="_static/_images/agilex_bunker.png">
                     </a>
                 </th>
                 <th>
-                    <a href="./agilex_bunker_pro_docs/index.html"
+                    <a href="docs.trossenrobotics.com/agilex_bunker_pro_docs"
                         class="docs_link">
                         <img src="_static/_images/agilex_bunker_pro.png">
                     </a>
                 </th>
                 <th>
-                    <a href="./agilex_bunker_mini_docs/index.html"
+                    <a href="docs.trossenrobotics.com/agilex_bunker_mini_docs"
                         class="docs_link">
                         <img src="_static/_images/agilex_bunker_mini.png">
                     </a>
@@ -75,7 +75,7 @@ Dobot
         <table>
             <tr>
                 <th>
-                    <a  href="./dobot_cr_cobots_docs/index.html"
+                    <a  href="docs.trossenrobotics.com/dobot_cr_cobots_docs"
                         class="docs_link">
                         <img src="_static/_images/dobot_cr_cobots.png">
                     </a>
