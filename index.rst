@@ -58,16 +58,15 @@ AgileX
                 </th>
             </tr>
             <tr>
-                <th><p>AgileX BUNKER</p></th>
-                <th><p>AgileX BUNKER PRO</p></th>
-                <th><p>AgileX BUNKER MINI</p></th>
+                <th><p>AgileX Robotics BUNKER</p></th>
+                <th><p>AgileX Robotics BUNKER PRO</p></th>
+                <th><p>AgileX Robotics BUNKER MINI</p></th>
             </tr>
         </table>
     </div>
 
 Dobot
 =====
-
 
 .. raw:: html
 
@@ -89,3 +88,21 @@ Dobot
 
 Unitree
 =======
+
+.. raw:: html
+
+    <div class="docs-table" id="unitree-table">
+        <table>
+            <tr>
+                <th>
+                    <a  href="https://docs.trossenrobotics.com/unitree_go1_docs"
+                        class="docs_link">
+                        <img src="_static/_images/unitree_go1.png">
+                    </a>
+                </th>
+            </tr>
+            <tr>
+                <th><p>Unitree Robotics Go1</p></th>
+            </tr>
+        </table>
+    </div>
