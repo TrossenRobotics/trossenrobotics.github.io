@@ -198,7 +198,7 @@ Trossen Robotics Documentation
 .. raw:: html
 
     <div class="docs-table" id="dobot-table">
-        <a href="#agile-platforms">
+        <a href="#dobot-platforms">
             <img src="_static/_images/dobot.png"
                 class="docs-table-header-img"
                 id="dobot-platforms">
