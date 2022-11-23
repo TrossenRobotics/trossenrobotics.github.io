@@ -1,40 +1,23 @@
-/* Sidebar header (and topbar for mobile) */
-
-.wy-side-nav-search,
-.wy-nav-top {
-    background: #333;
-}
-
-
-/* Sidebar */
+/* Hide Sidebar */
 
 .wy-nav-side {
-    background: #f2f2f2;
+    display: none;
 }
-
 
 /* Wider content */
 
 .wy-nav-content {
-    max-width: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70% !important;
 }
 
-
-/* Menu Text Color */
-
-.wy-menu-vertical {
-    color: black !important;
-    font-size: 95%
+.wy-nav-content-wrap {
+    margin-left: 0;
 }
 
-.wy-menu-vertical a {
-    color: black !important;
-    font-size: 95%
-}
-
-.wy-menu-vertical a:hover {
-    background-color: #c7c7c7;
-    cursor: pointer
+div[role=navigation] {
+    display: none;
 }
 
 
@@ -69,20 +52,6 @@ a {
 
 
 /*
-    Override alternating table colors
-        This is to make single-row tables look better
- */
-
-table.docutils tr.row-odd td {
-    background-color: transparent !important;
-}
-
-table.docutils tr.row-even td {
-    background-color: #f3f6f6 !important;
-}
-
-
-/*
     change default font to Gilmer-Regular
 */
 
@@ -104,48 +73,6 @@ h5,
 h6,
 legend {
     font-family: "Gilmer-Regular" !important;
-}
-
-
-/*
-    Change the code highlights style and gp icon
-*/
-
-div.highlight {
-    background-color: #eaeef2;
-}
-
-.highlight span.gp {
-    color: #404040;
-    font-weight: bold;
-}
-
-.rst-content .toctree-wrapper ul li>ul {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-/* gif start on click */
-
-.static,
-.active-ca {
-    grid-column: 1;
-    grid-row: 1;
-    width: 75px;
-    height: 50px;
-    margin-left: 15px;
-    background-position: center;
-    background-size: 75% 75%;
-    padding-top: 5px;
-    padding-right: 9px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    margin-bottom: auto;
-    margin-top: auto;
-}
-
-.static:hover {
-    opacity: 0;
 }
 
 
