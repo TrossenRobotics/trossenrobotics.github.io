@@ -7,9 +7,11 @@ Trossen Robotics Documentation
 .. raw:: html
 
     <div class="docs-table" id="interbotix-table">
-        <img src="_static/_images/interbotix.png"
-             class="docs-table-header-img"
-             id="interbotix-platforms">
+        <a href="#interbotix-platforms">
+            <img src="_static/_images/interbotix.png"
+                class="docs-table-header-img"
+                id="interbotix-platforms">
+        </a>
         <table>
             <tbody>
                 <tr>
@@ -38,6 +40,7 @@ Trossen Robotics Documentation
                 </tr>
             </tbody>
         </table>
+        <hr>
     </div>
 
 .. AgileX
@@ -45,9 +48,11 @@ Trossen Robotics Documentation
 .. raw:: html
 
     <div class="docs-table" id="agilex-table">
-        <img src="_static/_images/agilex.png"
-             class="docs-table-header-img"
-             id="agilex-platforms">
+        <a href="#agilex-platforms">
+            <img src="_static/_images/agilex.png"
+                class="docs-table-header-img"
+                id="agilex-platforms">
+        </a>
         <table>
             <tbody>
                 <tr>
@@ -154,6 +159,7 @@ Trossen Robotics Documentation
                 </tr>
             </tbody>
         </table>
+        <hr>
     </div>
 
 .. Unitree
@@ -161,9 +167,11 @@ Trossen Robotics Documentation
 .. raw:: html
 
     <div class="docs-table" id="unitree-table">
-        <img src="_static/_images/unitree.png"
-             class="docs-table-header-img"
-             id="unitree-platforms">
+        <a href="#unitree-platforms">
+            <img src="_static/_images/unitree.png"
+                class="docs-table-header-img"
+                id="unitree-platforms">
+        </a>
         <table>
             <tbody>
                 <tr>
@@ -182,6 +190,7 @@ Trossen Robotics Documentation
                 </tr>
             </tbody>
         </table>
+        <hr>
     </div>
 
 .. Dobot
@@ -189,9 +198,11 @@ Trossen Robotics Documentation
 .. raw:: html
 
     <div class="docs-table" id="dobot-table">
-        <img src="_static/_images/dobot.png"
-             class="docs-table-header-img"
-             id="dobot-platforms">
+        <a href="#agile-platforms">
+            <img src="_static/_images/dobot.png"
+                class="docs-table-header-img"
+                id="dobot-platforms">
+        </a>
         <table>
             <tbody>
                 <tr>
