@@ -89,17 +89,21 @@ hr {
   font-size: 17px;
 }
 
+.nav-item a {
+  text-decoration: none;
+}
+
 /* Hides Hamburger menu */
 .navbar .icon {
   display: none;
 }
 
-.dropdown {
+.dropdown, .dropdown-content {
   float: left;
   overflow: hidden;
 }
 
-/* WORKING ON THIS */ 
+/* WORKING ON THIS  
 #dropbtn, .dropbtn {
   font-size: 17px;
   border: none;
@@ -109,7 +113,7 @@ hr {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-}
+} */
 
 /* Hides drop down content */
 .dropdown-content {
