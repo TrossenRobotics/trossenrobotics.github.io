@@ -11,46 +11,39 @@
 <body>
     <!--SUPPORT PAGE-->
     <div class="container">
+        
         <!--Navigation-->
         <nav data-spy="affix">
-            <ul id="mynavbar" class="navbar"><!--Keep ul-->
-                <ul class="dropdown">
-                    <li id="dropbtn" class="nav-item"><a href="#" class="active">ROBOT ARMS</a></li>
-                    <li class="dropdown-content">
-                        <a href="#">Industrial & Cobot Arms</a>
-                        <a href="#">Industrial End-Effectors</a>
-                        <a href="#">ROS Research Arms</a>
-                    </li>
+            <div class="nav-flex">
+                <a href="https://www.trossenrobotics.com">
+                    <img src="https://www.trossenrobotics.com/Shared/Logo/new_logo-footer-box1.png" id="logo-img-toggle"
+                        class="nav-logo-img" data-image="0" style="width: 100%">
+                </a>
+
+                <ul id="mynavbar" class="navbar">
+                    <ul class="dropdown">
+                        <button class="dropbtn"><a class="active"
+                                href="https://www.trossenrobotics.com/robotic-arms.aspx">ROBOT ARMS</a></button>
+                        <li class="dropdown-content">
+                            <a href="https://www.trossenrobotics.com/robotic-arms/industrial-cobot.aspx">Industrial &
+                                Cobot Arms</a>
+                            <a href="https://www.trossenrobotics.com/robotic-arms/cobot-end-effectors.aspx">Industrial
+                                End-Effectors</a>
+                            <a href="https://www.trossenrobotics.com/robotic-arms/ros-research-arms.aspx">ROS Research
+                                Arms</a>
+                        </li>
+                    </ul>
+
+                    <a href="https://www.trossenrobotics.com/ros-rovers-turtlebot.aspx">ROVERS</a>
+                    <a href="https://www.trossenrobotics.com/c/robot-turrets.aspx">PAN & TILT</a>
+                    <a href="https://www.trossenrobotics.com/Quadruped-Robot-Hexapod-Robot-Kits.aspx">QUADRUPEDS</a>
+                    <a href="https://www.trossenrobotics.com/robot-servos">SERVOS</a>
+                    <a href="https://www.trossenrobotics.com/robot-parts.aspx">ACCESSORIES</a>
+                    <a href="https://www.trossenrobotics.com/contact.aspx">CONTACT</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
                 </ul>
-                <li class="nav-item"><a href="#">ROVERS</a></li>
-                <li class="nav-item"><a href="#">PAN & TILT</a></li>
-                <li class="nav-item"><a href="#">QUADRUPEDS</a></li>
-                <li class="nav-item"><a href="#">SERVOS</a></li>
-                <li class="nav-item"><a href="#">ACCESSORIES</a></li>
-                <li class="nav-item"><a href="#">CONTACT</a></li>
-                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-            </ul>
-        </nav>
-
-
-        <div class="navbar" id="mynavbar">
-            <div class="dropdown">
-                <button class="dropbtn">Dropdown
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
             </div>
-            <a href="#home" class="active">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
-
+        </nav>
 
         <!--Interbotix-->
         <div class="interbotix">
@@ -448,6 +441,13 @@
             x.className += " responsive";
         } else {
             x.className = "navbar";
+        }
+
+        var x = document.getElementById("logo-img-toggle");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
         }
     }
 </script>

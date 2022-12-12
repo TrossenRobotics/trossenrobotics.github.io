@@ -69,16 +69,31 @@ hr {
 /* SUPPORT PAGE */
 /* Navigation Menu */
 /* Styles Nav */
-.navbar, .dropdown-content {
-  list-style-type: none;
-  padding-left: 0px;
-}
-
-.navbar {
-  overflow: hidden;
+nav {
   background-color: #333;
 }
 
+div.nav-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img.nav-logo-img {
+  padding: 14px 16px;
+  max-width: 140px;
+  margin: 0px auto 0px 0px;
+}
+
+/* Hides Bullets */
+/* The overflow is clipped, and the rest of the content will be invisible */
+.navbar {
+  list-style-type: none;
+  padding-left: 0px;
+  overflow: hidden;
+  margin: 0px;  1`  
+}
+
+/* Styles Individual "a" Link Within Menu */
 .navbar a {
   float: left;
   display: block;
@@ -89,31 +104,34 @@ hr {
   font-size: 17px;
 }
 
-.nav-item a {
-  text-decoration: none;
+ul#mynavbar {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-/* Hides Hamburger menu */
+/* Hides Hamburger Menu */
 .navbar .icon {
   display: none;
 }
 
-.dropdown, .dropdown-content {
+.dropdown {
   float: left;
   overflow: hidden;
+  padding-left: 0px;
 }
 
-/* WORKING ON THIS  
-#dropbtn, .dropbtn {
+/* Button Edits */
+.dropdown .dropbtn {
   font-size: 17px;
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 0px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-} */
+}
 
 /* Hides drop down content */
 .dropdown-content {
@@ -136,11 +154,7 @@ hr {
   text-align: left;
 }
 
-.dropdown-content a:hover {
-  color: white;
-  background-color: #007cc4;
-}
-
+/* Added Hover eff */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
   color: white;
@@ -148,29 +162,37 @@ hr {
   transition: all .5s ease-in-out;
 }
 
+.dropdown-content a:hover {
+  color: white;
+  background-color: #007cc4;
+}
+
+/* Displays Menu When Hover On ul */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.active {
-  background-color: #333;
-  color: white;
-}    
-
 /* Hide menu when it reaches this size */
-@media screen and (max-width: 600px) {
-  .navbar a:not(:first-child),
-  .dropdown, .dropbtn, .nav-item {
+@media screen and (max-width: 1024px) {
+  div.nav-flex {
+    justify-content: space-between;
+  }
+
+  .navbar a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
 
+    /* Display */
   .navbar a.icon {
+    font-size: 40px;
     float: right;
     display: block;
+    width: 45px;
+    height: 45px;
+    padding: 0px 8px 10px 8px;
+    margin-right: 15px;
   }
-}
 
-@media screen and (max-width: 600px) {
   .navbar.responsive {
     position: relative;
   }
@@ -201,10 +223,6 @@ hr {
     text-align: left;
   }
 }
-
-
-
-
 
 /* Interbotix */
 figure {
@@ -283,6 +301,11 @@ div.footer-flex-container {
 
 div.footer-box1 {
   width: 350px;
+}
+
+img.footer-logo-img {
+  max-width: 140px;
+  margin: 0px auto 0px 0px;
 }
 
 figure.footer-logo-container {
