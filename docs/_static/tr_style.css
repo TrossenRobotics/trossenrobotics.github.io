@@ -230,7 +230,8 @@ figure {
 }
 
 img.interbotix-logo-img {
-  width: 500px;
+  width: 100%;
+  max-width: 550px;
 }
 
 div.interbotix-box2 {
@@ -239,12 +240,14 @@ div.interbotix-box2 {
 }
 
 img.interbotix-link-img {
-  width: 325px;
+  width: 100%;
+  max-width: 325px;
 }
 
 /* AgileX */
 img.agilex-logo-img {
-  width: 500px;
+  width: 100%;
+  max-width: 450px;
 }
 
 div.agilex-box2 {
@@ -263,25 +266,30 @@ div.agilex-box4 {
 }
 
 img.agilex-link-img {
-  width: 325px;
+  width: 100%;
+  max-width: 325px;
 }
 
 /* Unitree Robotics */
 img.unitree-logo-img {
-  width: 500px;
+  width: 100%;
+  max-width: 600px;
 }
 
 img.unitree-link-img {
-  width: 325px;
+  width: 100%;
+  max-width: 325px;
 }
 
 /* DOBOT */
 img.dobot-logo-img {
-  width: 500px;
+  width: 100%;
+  max-width: 400px;
 }
 
 img.dobot-link-img {
-  width: 325px;
+  width: 100%;
+  max-width: 325px;
 }
 
 
