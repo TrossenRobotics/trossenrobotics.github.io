@@ -251,7 +251,7 @@ figure {
 
 img.interbotix-logo-img {
   width: 100%;
-  max-width: 550px;
+  max-width: 580px;
 }
 
 div.interbotix-box2 {
@@ -261,7 +261,7 @@ div.interbotix-box2 {
 
 img.interbotix-link-img {
   width: 100%;
-  max-width: 325px;
+  max-width: 300px;
 }
 
 /* AgileX */
@@ -309,23 +309,23 @@ div.tablet-box2, div.tablet-box3, div.tablet-box4, div.tablet-box5, div.tablet-b
 /* Unitree Robotics */
 img.unitree-logo-img {
   width: 100%;
-  max-width: 600px;
+  max-width: 580px;
 }
 
 img.unitree-link-img {
   width: 100%;
-  max-width: 325px;
+  max-width: 330px;
 }
 
 /* DOBOT */
 img.dobot-logo-img {
   width: 100%;
-  max-width: 400px;
+  max-width: 380px;
 }
 
 img.dobot-link-img {
   width: 100%;
-  max-width: 325px;
+  max-width: 300px;
 }
 
 
@@ -783,4 +783,8 @@ input#footer-submit-button-input.formEmailButton.btn.btn-default:hover {
   p.footer-box5-title {
     text-align: left;
   }
+}
+
+body {  
+  margin: 0px;
 }
