@@ -245,6 +245,10 @@ ul#mynavbar {
 }
 
 /* Interbotix */
+figure.interbotix {
+  margin: 30px;
+}
+
 figure {
   text-align: center;
 }
@@ -257,6 +261,7 @@ img.interbotix-logo-img {
 div.interbotix-box2 {
   display: flex;
   justify-content: center;
+  margin-bottom: 14px;
 }
 
 img.interbotix-link-img {
@@ -265,6 +270,10 @@ img.interbotix-link-img {
 }
 
 /* AgileX */
+figure.agilex {
+  margin: 30px;
+}
+
 img.agilex-logo-img {
   width: 100%;
   max-width: 450px;
@@ -273,16 +282,19 @@ img.agilex-logo-img {
 div.agilex-box2 {
   display: flex;
   justify-content: center;
+  margin-bottom: 14px;
 }
 
 div.agilex-box3 {
   display: flex;
   justify-content: center;
+  margin-bottom: 14px;
 }
 
 div.agilex-box4 {
   display: flex;
   justify-content: center;
+  margin-bottom: 14px;
 }
 
 img.agilex-link-img {
@@ -300,6 +312,10 @@ div.agilex-box2, div.agilex-box3, div.agilex-box4 {
   display: none;
 }
 
+div.tablet-box6 {
+  margin-bottom: 14px;
+}
+
 div.tablet-box2, div.tablet-box3, div.tablet-box4, div.tablet-box5, div.tablet-box6 {
   display: flex;
   justify-content: center;
@@ -307,9 +323,17 @@ div.tablet-box2, div.tablet-box3, div.tablet-box4, div.tablet-box5, div.tablet-b
 }
 
 /* Unitree Robotics */
+figure.unitree {
+  margin: 30px;
+}
+
 img.unitree-logo-img {
   width: 100%;
   max-width: 580px;
+}
+
+div.unitree-box2 {
+  margin-bottom: 30px;
 }
 
 img.unitree-link-img {
@@ -318,9 +342,17 @@ img.unitree-link-img {
 }
 
 /* DOBOT */
+figure.dobot {
+  margin: 30px;
+}
+
 img.dobot-logo-img {
   width: 100%;
   max-width: 380px;
+}
+
+div.dobot-box2 {
+  margin-bottom: 30px;
 }
 
 img.dobot-link-img {
