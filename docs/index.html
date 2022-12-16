@@ -11,9 +11,9 @@
 <body>
     <!--SUPPORT PAGE-->
     <div class="container">
-        
+
         <!--Navigation-->
-        <nav data-spy="affix">
+        <nav id="navbar" data-spy="affix">
             <div class="nav-flex">
                 <a href="https://www.trossenrobotics.com">
                     <img src="https://www.trossenrobotics.com/Shared/Logo/new_logo-footer-box1.png" id="logo-img-toggle"
@@ -21,14 +21,14 @@
                 </a>
 
                 <ul id="mynavbar" class="navbar">
-                    <a href="https://www.trossenrobotics.com">
-                        <img src="https://www.trossenrobotics.com/Shared/Logo/new_logo-footer-box1.png" id="logo-img-toggle"
-                            class="nav-logo-img2" data-image="0">
+                    <a href="https://www.trossenrobotics.com" class="test-hide">
+                        <img src="https://www.trossenrobotics.com/Shared/Logo/new_logo-footer-box1.png"
+                            id="logo-img-toggle" class="nav-logo-img2" data-image="0">
                     </a>
 
                     <ul class="dropdown">
                         <button class="dropbtn">
-                            <a class="active" href="https://www.trossenrobotics.com/robotic-arms.aspx">ROBOT ARMS</a>
+                            <a href="https://www.trossenrobotics.com/robotic-arms.aspx" class="active">ROBOT ARMS</a>
                         </button>
 
                         <li class="dropdown-content">
@@ -49,6 +49,7 @@
                     <a href="https://www.trossenrobotics.com/contact.aspx">CONTACT</a>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
                 </ul>
+                <a class="filler"></a>
             </div>
         </nav>
 
@@ -108,7 +109,7 @@
                 </figure>
 
                 <figure>
-                    <a href="https://docs.trossenrobotics.com/agilex_bunker_pro_docs" class="docs-link" target="_blank">
+                    <a href="https://trossenrobotics.americommerce.com/Shared/Support Page/agilex-bunker-pro-shadow2.png" class="docs-link" target="_blank">
                         <img src="https://trossenrobotics.americommerce.com/Shared/Support Page/agilex-bunker-pro.png"
                             class="agilex-link-img" alt="Link to AgileX BUNKER PRO documentation">
                     </a>
@@ -185,7 +186,7 @@
                 </figure>
             </div>
 
-                    <!--Tablet - Mobile-->
+            <!--Tablet - Mobile-->
             <div class="tablet-box2">
                 <figure>
                     <a href="https://docs.trossenrobotics.com/agilex_bunker_docs" class="docs-link" target="_blank">
@@ -197,7 +198,7 @@
                 </figure>
 
                 <figure>
-                    <a href="https://docs.trossenrobotics.com/agilex_bunker_pro_docs" class="docs-link" target="_blank">
+                    <a href="https://trossenrobotics.americommerce.com/Shared/Support Page/agilex-bunker-pro-shadow2.png" class="docs-link" target="_blank">
                         <img src="https://trossenrobotics.americommerce.com/Shared/Support Page/agilex-bunker-pro.png"
                             class="agilex-link-img" alt="Link to AgileX BUNKER PRO documentation">
                     </a>
@@ -494,14 +495,15 @@
                     <div class="footer-section4-line"></div>
 
                     <ul id="footer-menu4">
-                        <li><a href="https://docs.trossenrobotics.com/dobot_cr_cobots_docs/"
-                                class="footer-tablet-link" target="_blank" rel="noopener noreferrer">DOBOT CR</a></li>
+                        <li><a href="https://docs.trossenrobotics.com/dobot_cr_cobots_docs/" class="footer-tablet-link"
+                                target="_blank" rel="noopener noreferrer">DOBOT CR</a></li>
 
                         <li><a href="https://docs.trossenrobotics.com/interbotix_xslocobots_docs/"
                                 class="footer-tablet-link" target="_blank" rel="noopener noreferrer">Locobot</a></li>
-                
+
                         <li><a href="https://docs.trossenrobotics.com/interbotix_xsarms_docs/"
-                                class="footer-tablet-link" target="_blank" rel="noopener noreferrer">XSeries Arms</a></li>
+                                class="footer-tablet-link" target="_blank" rel="noopener noreferrer">XSeries Arms</a>
+                        </li>
 
                         <!--<li><a href="https://www.trossenrobotics.com/customerservice" class="footer-tablet-link" target="_blank" rel="noopener noreferrer">Customer Service</a></li>-->
 
@@ -511,17 +513,15 @@
 
                         <!--<li><a href="https://learn.trossenrobotics.com/" class="footer-tablet-link" target="_blank" rel="noopener noreferrer">Legacy Kits</a></li>-->
 
-                        <li><a href="https://docs.trossenrobotics.com/unitree_go1_docs/"
-                                class="footer-tablet-link" target="_blank" rel="noopener noreferrer">Unitree
+                        <li><a href="https://docs.trossenrobotics.com/unitree_go1_docs/" class="footer-tablet-link"
+                                target="_blank" rel="noopener noreferrer">Unitree
                                 Robotics</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-
     </footer>
-
 </body>
 
 </html>
@@ -537,13 +537,20 @@
         } else {
             x.className = "navbar";
         }
-
-        // Hides Logo
-        // var x = document.getElementById("logo-img-toggle");
-        // if (x.style.display === "none") {
-        //     x.style.display = "block";
-        // } else {
-        //    x.style.display = "none";
-        // }
     }
+
+    // When the user scrolls the page, execute myFunction
+    // window.onscroll = function () { myFunction() };
+    // Get the navbar
+    // var navbar = document.getElementById("navbar");
+    // Get the offset position of the navbar
+    // var sticky = navbar.offsetTop;
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    // function myFunction() {
+    //    if (window.pageYOffset >= sticky) {
+    //        navbar.classList.add("sticky")
+    //    } else {
+    //        navbar.classList.remove("sticky");
+    //    }
+    //}
 </script>
