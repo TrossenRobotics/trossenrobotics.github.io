@@ -199,11 +199,12 @@ ul#mynavbar {
   display: block;
 }
 
-/* .active { 
+.active { 
   color: white;
   background-color: #007cc4;
 }
 
+/* 
 .sticky {
   position: sticky;
   top: 0;
@@ -266,7 +267,6 @@ a.filler {
     top: 0;
   }
 
-  /* ISSUE HERE */
   .navbar.responsive a {
     float: none;
     display: block;
