@@ -34,6 +34,22 @@ legend {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* Secondary Dropdown Menu */
+dl, dd {
+  margin-top: 0;
+  margin-bottom: 0;
+  background: #333;
+}
+
+dd {
+  display: none;
+}
+
+/* When I hover on dl, the dd will display */
+dl:hover dd {
+  display: block;
+}
+
 /* Docs table */
 div.docs-table {
   text-align: center;
@@ -158,6 +174,7 @@ ul#mynavbar {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  width: 100%;
 }
 
 /* Hides drop down content */
