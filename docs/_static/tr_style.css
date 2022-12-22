@@ -111,14 +111,14 @@ div.nav-flex {
 }
 
 img.nav-logo-img {
-  max-width: 140px;
+  max-width: 138px;
   padding: 14px 16px 13px 16px;
   margin: 0px auto 0px 0px;
 }
 
 img.nav-logo-img2 {
   display: none;
-  max-width: 140px;
+  max-width: 138px;
   margin: 0px auto 0px 0px;
 }
 
@@ -137,9 +137,9 @@ img.nav-logo-img2 {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 15px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 ul#mynavbar {
@@ -210,12 +210,12 @@ ul#mynavbar {
   display: block;
 }
 
-.active { 
+.active {
   color: white;
   background-color: #007cc4;
 }
 
-/* 
+/*
 .sticky {
   position: sticky;
   top: 0;
@@ -227,15 +227,15 @@ ul#mynavbar {
 } */
 
 a.filler1 {
-  width: 70px;
+  width: 85px;
 }
 
 a.filler2 {
-  width: 100px;
+  width: 90px;
 }
 
 a.filler3 {
-  width: 335px;
+  width: 330px;
 }
 
 @media screen and (max-width: 1500px) {
@@ -244,8 +244,28 @@ a.filler3 {
   }
 }
 
+@media (max-width: 1484px) {
+  a.filler1 {
+    width: 55px;
+  }
+
+  a.filler2 {
+    display: none;
+  }
+
+  a.filler3 {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 1172px) {
+  a.filler3 {
+    width: 230px;
+  }
+}
+
 /* Hide menu when it reaches this size */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 981px) {
   ul#mynavbar {
     width: 100%;
   }
@@ -385,8 +405,7 @@ div.tablet-box6 {
 }
 
 /* TABLET */
-@media only screen and (max-width: 1024px) {
-
+@media only screen and (max-width: 981px) {
   div.agilex-box2,
   div.agilex-box3,
   div.agilex-box4 {
@@ -509,7 +528,7 @@ img.footer-social-img1-2 {
 figure.footer-social-icon2 {
   width: 30px;
   height: 30px;
-  margin: 0px 0px 0px 0px; 
+  margin: 0px 0px 0px 0px;
   z-index: 2;
 }
 
@@ -536,7 +555,7 @@ img.footer-social-img2-2 {
 figure.footer-social-icon3 {
   width: 30px;
   height: 30px;
-  margin: 0px 0px 0px 0px; 
+  margin: 0px 0px 0px 0px;
   z-index: 2;
 }
 
@@ -810,7 +829,7 @@ input#footer-submit-button-input.formEmailButton.btn.btn-default:hover {
 }
 
 /* TABLET */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 981px) {
   div.footer-flex-container {
     display: block;
     padding: 40px 0px;
@@ -901,9 +920,3 @@ input#footer-submit-button-input.formEmailButton.btn.btn-default:hover {
     text-align: left;
   }
 }
-
-
-
-
-
-background: #1e1d22;
