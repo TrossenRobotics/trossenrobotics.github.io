@@ -158,6 +158,10 @@ ul#mynavbar {
   padding-left: 0px;
 }
 
+.dropbtn {
+  cursor: pointer;
+}
+
 /* Button Edits */
 .dropdown .dropbtn {
   font-size: 17px;
@@ -205,10 +209,10 @@ ul#mynavbar {
   background-color: #007cc4;
 }
 
-/* Displays Menu When Hover On ul */
+/* Displays Menu When Hover On ul
 .dropdown:hover .dropdown-content {
   display: block;
-}
+} */
 
 .active {
   color: white;
@@ -313,6 +317,10 @@ a.filler3 {
 
   .navbar.responsive .dropdown {
     float: none;
+  }
+
+  .dropdown-content.show {
+    display: block
   }
 
   .navbar.responsive .dropdown-content {
