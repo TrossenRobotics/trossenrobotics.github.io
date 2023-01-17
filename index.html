@@ -16,23 +16,23 @@
         <!--Navigation-->
         <nav id="navbar" data-spy="affix">
             <div class="nav-flex">
-                <a href="https://www.trossenrobotics.com">
+                <a href="https://www.trossenrobotics.com" style="background-color: transparent;">
                     <img src="https://www.trossenrobotics.com/Shared/Logo/new_logo-footer-box1.png" id="logo-img-toggle"
                         class="nav-logo-img" data-image="0">
                 </a>
                 <a class="filler1"></a>
                 <a class="filler2"></a>
                 <ul id="mynavbar" class="navbar">
-                    <a href="https://www.trossenrobotics.com" class="test-hide">
+                    <a href="https://www.trossenrobotics.com" class="test-hide" style="background-color: transparent;">
                         <img src="https://www.trossenrobotics.com/Shared/Logo/new_logo-footer-box1.png"
                             id="logo-img-toggle" class="nav-logo-img2" data-image="0">
                     </a>
 
                     <ul class="dropdown">
-                        <button class="dropbtn">
+                        <button onclick="btn_store()" class="dropbtn">
                             <a>STORE</a>
                         </button>
-                        <li class="dropdown-content">
+                        <li id="myDropdown-s" class="dropdown-content">
                             <a href="https://www.trossenrobotics.com/robotic-arms/ros-research-arms.aspx">Arms - ROS Research Arms</a>
                             <a href="https://www.trossenrobotics.com/robotic-arms/industrial-cobot.aspx">Arms - Industrial & Cobot Arms</a>
                             <a href="https://www.trossenrobotics.com/robotic-arms/cobot-end-effectors.aspx">Arms - Industrial End-Effectors</a>
@@ -45,10 +45,10 @@
                     </ul>
 
                     <ul class="dropdown">
-                        <button class="dropbtn">
+                        <button onclick="btn_solution()" class="dropbtn">
                             <a>SOLUTIONS</a>
                         </button>
-                        <li class="dropdown-content">
+                        <li id="myDropdown-s2" class="dropdown-content">
                             <a href="https://www.trossenrobotics.com/xseries-arms-overview">ROS Robot Arms</a>
                             <a href="https://www.trossenrobotics.com/AgileX-Overview">Outdoor UGVs</a>
                             <a href="https://www.trossenrobotics.com/locobot-overview.aspx">ROS Mobile Manipulator / Rover</a>
@@ -61,7 +61,7 @@
                     <a href="https://docs.trossenrobotics.com/" class="active">SUPPORT</a>
                     <a href="https://www.trossenrobotics.com/videos-overview.aspx">VIDEOS</a>
                     <a href="https://www.trossenrobotics.com/contact.aspx">CONTACT</a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                    <a href="javascript:void(0);" class="icon" onclick="collapse()">&#9776;</a>
                 </ul>
                 <a class="filler3"></a>
             </div>
@@ -307,7 +307,7 @@
             </div>
 
             <div class="unitree-box2">
-                <figure>
+                <figure class="unitree-img">
                     <a href="https://docs.trossenrobotics.com/unitree_go1_docs" class="docs-link" target="_blank">
                         <img src="_static/_images/unitree_go1.png" class="unitree-link-img" alt="Unitree Go1">
                     </a>
@@ -330,7 +330,7 @@
             </div>
 
             <div class="dobot-box2">
-                <figure>
+                <figure class="dobot-img">
                     <a href="https://docs.trossenrobotics.com/dobot_cr_cobots_docs" class="docs-link" target="_blank">
                         <img src="_static/_images/dobot_cr_cobots.png" class="dobot-link-img"
                             alt="Link to Dobot CR-Series Cobots documentation">
@@ -542,7 +542,7 @@
 <!--Navigation Mobile-->
 <script>
     // Gives "mynavbar" the new class of "responsive"
-    function myFunction() {
+    function collapse() {
         var x = document.getElementById("mynavbar");
         if (x.className === "navbar") {
             x.className += " responsive";
@@ -558,5 +558,67 @@
                 $(this).addClass('active'); $(this).parents('li').addClass('active');
             }
         });
-    })
+    });
+
+    // When the user clicks on the button, toggle between hiding and showing the dropdown content
+    function btn_store() {
+      document.getElementById("myDropdown-s").classList.toggle("show");
+    }
+
+    // Gives "myDropdown" the new class of "show"
+    function btn_store() {
+      var x = document.getElementById("myDropdown-s");
+      if (x.className === "dropdown-content") {
+        x.className += " show";
+      } else {
+        x.className = "dropdown-content";
+      }
+      //Prevents reload on button click
+      event.preventDefault();
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+
+    // When the user clicks on the button, toggle between hiding and showing the dropdown content
+        function btn_solution() {
+      document.getElementById("myDropdown-s2").classList.toggle("show");
+    }
+
+    // Gives "myDropdown" the new class of "show"
+    function btn_solution() {
+      var x = document.getElementById("myDropdown-s2");
+      if (x.className === "dropdown-content") {
+        x.className += " show";
+      } else {
+        x.className = "dropdown-content";
+      }
+      //Prevents reload on button click
+      event.preventDefault();
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
 </script>

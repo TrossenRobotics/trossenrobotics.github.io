@@ -158,6 +158,10 @@ ul#mynavbar {
   padding-left: 0px;
 }
 
+.dropbtn {
+  cursor: pointer;
+}
+
 /* Button Edits */
 .dropdown .dropbtn {
   font-size: 17px;
@@ -205,10 +209,10 @@ ul#mynavbar {
   background-color: #007cc4;
 }
 
-/* Displays Menu When Hover On ul */
+/* Displays Menu When Hover On ul
 .dropdown:hover .dropdown-content {
   display: block;
-}
+} */
 
 .active {
   color: white;
@@ -315,6 +319,10 @@ a.filler3 {
     float: none;
   }
 
+  .dropdown-content.show {
+    display: block
+  }
+
   .navbar.responsive .dropdown-content {
     position: relative;
   }
@@ -362,6 +370,21 @@ img.interbotix-link-img {
   width: 100%;
   max-width: 270px;
 }
+
+/* TABLET */
+@media only screen and (max-width: 981px) {
+figure {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+/* MOBILE  */
+@media only screen and (max-width: 500px) {
+  img.interbotix-logo-img {
+    max-width: 370px;
+  }
+  }
 
 /* AgileX */
 figure.agilex {
@@ -426,6 +449,17 @@ div.tablet-box6 {
   }
 }
 
+/* MOBILE */
+@media only screen and (max-width: 500px) {
+  figure#tablet-edits7 {
+    max-width: 240px;
+  }
+
+  img.agilex-logo-img {
+    max-width: 340px;
+  }
+}
+
 /* Unitree Robotics */
 figure.unitree {
   margin: 30px;
@@ -443,6 +477,24 @@ div.unitree-box2 {
 img.unitree-link-img {
   width: 100%;
   max-width: 300px;
+}
+
+/* TABLET */
+@media only screen and (max-width: 981px) {
+  figure.unitree-img {
+    margin: auto;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 500px) {
+  figure.unitree-img {
+    max-width: 225px;
+  }
+
+  img.unitree-logo-img {
+    max-width: 380px;
+  }
 }
 
 /* DOBOT */
@@ -464,6 +516,23 @@ img.dobot-link-img {
   max-width: 270px;
 }
 
+/* TABLET */
+@media only screen and (max-width: 981px) {
+  figure.dobot-img {
+    margin: auto;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 500px) {
+  figure.dobot-img {
+    max-width: 230px;
+  }
+
+  img.dobot-logo-img {
+    max-width: 340px;
+  }
+}
 
 /* FOOTER */
 /* Box1 */
