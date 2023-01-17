@@ -29,7 +29,7 @@
                     </a>
 
                     <ul class="dropdown">
-                        <button onclick="myFunction3()" class="dropbtn">
+                        <button onclick="btn_store()" class="dropbtn">
                             <a>STORE</a>
                         </button>
                         <li id="myDropdown-s" class="dropdown-content">
@@ -45,7 +45,7 @@
                     </ul>
 
                     <ul class="dropdown">
-                        <button onclick="myFunction4()" class="dropbtn">
+                        <button onclick="btn_solution()" class="dropbtn">
                             <a>SOLUTIONS</a>
                         </button>
                         <li id="myDropdown-s2" class="dropdown-content">
@@ -61,7 +61,7 @@
                     <a href="https://docs.trossenrobotics.com/" class="active">SUPPORT</a>
                     <a href="https://www.trossenrobotics.com/videos-overview.aspx">VIDEOS</a>
                     <a href="https://www.trossenrobotics.com/contact.aspx">CONTACT</a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                    <a href="javascript:void(0);" class="icon" onclick="collapse()">&#9776;</a>
                 </ul>
                 <a class="filler3"></a>
             </div>
@@ -542,7 +542,7 @@
 <!--Navigation Mobile-->
 <script>
     // Gives "mynavbar" the new class of "responsive"
-    function myFunction() {
+    function collapse() {
         var x = document.getElementById("mynavbar");
         if (x.className === "navbar") {
             x.className += " responsive";
@@ -561,12 +561,12 @@
     });
 
     // When the user clicks on the button, toggle between hiding and showing the dropdown content
-    function myFunction3() {
+    function btn_store() {
       document.getElementById("myDropdown-s").classList.toggle("show");
     }
 
     // Gives "myDropdown" the new class of "show"
-    function myFunction3() {
+    function btn_store() {
       var x = document.getElementById("myDropdown-s");
       if (x.className === "dropdown-content") {
         x.className += " show";
@@ -592,12 +592,12 @@
     }
 
     // When the user clicks on the button, toggle between hiding and showing the dropdown content
-        function myFunction4() {
+        function btn_solution() {
       document.getElementById("myDropdown-s2").classList.toggle("show");
     }
 
     // Gives "myDropdown" the new class of "show"
-    function myFunction4() {
+    function btn_solution() {
       var x = document.getElementById("myDropdown-s2");
       if (x.className === "dropdown-content") {
         x.className += " show";
