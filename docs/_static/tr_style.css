@@ -186,6 +186,12 @@ ul#mynavbar {
   z-index: 1;
 }
 
+/* Dropdown with cancel class */
+/* This class will activate on button click if current class is applied */
+.dropdown-content.cancel {
+  display: none;
+}
+
 /* Hides menu
 .dropdown-content.none {
   display: none;
