@@ -61,7 +61,7 @@
                     <a href="https://docs.trossenrobotics.com/" class="active">SUPPORT</a>
                     <a href="https://www.trossenrobotics.com/videos-overview.aspx">VIDEOS</a>
                     <a href="https://www.trossenrobotics.com/contact.aspx">CONTACT</a>
-                    <a href="javascript:void(0);" class="icon" onclick="collapse()">&#9776;</a>
+                    <a href="javascript:void(0);" class="icon" onclick="collapse(); collapse_store(); collapse_solutions()">&#9776;</a>
                 </ul>
                 <a class="filler3"></a>
             </div>
@@ -541,13 +541,33 @@
 
 <!--Navigation Mobile-->
 <script>
-    // Gives "mynavbar" the new class of "responsive"
+    // Gives "navbar" the new class of "responsive"
     function collapse() {
         var x = document.getElementById("mynavbar");
         if (x.className === "navbar") {
             x.className += " responsive";
         } else {
             x.className = "navbar";
+        }
+    }
+
+        // Gives "dropdown-content.show" the new class of "none"
+        function collapse_store() {
+        var x = document.getElementById("myDropdown-s");
+        if (x.className === "dropdown-content.show") {
+            x.className += " none";
+        } else {
+            x.className = "dropdown-content";
+        }
+    }
+
+        // Gives "dropdown-content.show" the new class of "none"
+        function collapse_solutions() {
+        var x = document.getElementById("myDropdown-s2");
+        if (x.className === "dropdown-content.show") {
+            x.className += " none";
+        } else {
+            x.className = "dropdown-content";
         }
     }
 
@@ -560,7 +580,7 @@
         });
     });
 
-    // When the user clicks on the button, toggle between hiding and showing the dropdown content
+    // On button click, toggle between hiding and showing the dropdown content
     function btn_store() {
       document.getElementById("myDropdown-s").classList.toggle("show");
     }
@@ -591,7 +611,7 @@
       }
     }
 
-    // When the user clicks on the button, toggle between hiding and showing the dropdown content
+    // On button click, toggle between hiding and showing the dropdown content
         function btn_solution() {
       document.getElementById("myDropdown-s2").classList.toggle("show");
     }
