@@ -186,6 +186,11 @@ ul#mynavbar {
   z-index: 1;
 }
 
+/* Hides menu
+.dropdown-content.none {
+  display: none;
+} */
+
 /* Styles drop down content */
 .dropdown-content a {
   float: none;
@@ -208,11 +213,6 @@ ul#mynavbar {
   color: white;
   background-color: #007cc4;
 }
-
-/* Displays Menu When Hover On ul
-.dropdown:hover .dropdown-content {
-  display: block;
-} */
 
 .active {
   color: white;
@@ -266,6 +266,13 @@ a.filler3 {
   a.filler3 {
     width: 230px;
   }
+}
+
+@media screen and (min-width: 981px) {
+/* Displays Menu When Hover On ul */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 }
 
 /* Hide menu when it reaches this size */
