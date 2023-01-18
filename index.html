@@ -29,7 +29,7 @@
                     </a>
 
                     <ul class="dropdown">
-                        <button onclick="btn_store()" class="dropbtn">
+                        <button onclick="btn_store(); btn_solution_close()" class="dropbtn">
                             <a>STORE</a>
                         </button>
                         <li id="myDropdown-s" class="dropdown-content">
@@ -45,7 +45,7 @@
                     </ul>
 
                     <ul class="dropdown">
-                        <button onclick="btn_solution()" class="dropbtn">
+                        <button onclick="btn_solution(); btn_store_close()" class="dropbtn">
                             <a>SOLUTIONS</a>
                         </button>
                         <li id="myDropdown-s2" class="dropdown-content">
@@ -597,6 +597,18 @@
       event.preventDefault();
     }
 
+    // Gives "dropdown-content.show" (already an active class) the new class of "cancel" for solutions
+    function btn_solution_close() {
+        var x = document.getElementById("myDropdown-s2");
+        if (x.className === "dropdown-content.show") {
+            x.className += " cancel";
+        } else {
+            x.className = "dropdown-content";
+        }
+        //Prevents reload on button click
+        event.preventDefault();
+    }
+
     // Close the dropdown menu if the user clicks outside of it
     window.onclick = function(event) {
       if (!event.target.matches('.dropbtn')) {
@@ -627,6 +639,18 @@
       //Prevents reload on button click
       event.preventDefault();
     }
+
+    // Gives "dropdown-content.show" (already an active class) the new class of "cancel" for store
+    function btn_store_close() {
+          var x = document.getElementById("myDropdown-s");
+          if (x.className === "dropdown-content.show") {
+            x.className += " cancel";
+          } else {
+            x.className = "dropdown-content";
+          }
+          //Prevents reload on button click
+          event.preventDefault();
+        }
 
     // Close the dropdown menu if the user clicks outside of it
     window.onclick = function(event) {
